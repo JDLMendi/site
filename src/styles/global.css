@@ -1,0 +1,38 @@
+/* #1f1e20 #3d2c36 #68666a #889bb5 #cbc8d1 */
+
+html {
+  font-family: "Fira Code", monospace;
+  font-color: #ffffff;
+  background: rgb(12, 19, 79);
+  background: linear-gradient(
+    188deg,
+    rgba(12, 19, 79, 1) 0%,
+    rgba(25, 34, 115, 1) 54%,
+    rgba(92, 70, 156, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  margin: 0px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: #d4adfc;
+  text-decoration: none;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.content {
+  margin: 10%;
+}

@@ -1,0 +1,19 @@
+---
+// Used to put the title of the page onto the tabs
+interface Props {
+    title?: string;
+}
+const {
+    title = "Default Title"
+} = Astro.props as Props;
+---
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="../../public/icon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{Astro.props.title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
