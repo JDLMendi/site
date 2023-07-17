@@ -1,17 +1,18 @@
 ---
 import { Icon } from "astro-icon";
 import navData from "../data/navData";
-import "../styles/navbar.css"
+import "../styles/components/navbar.css"
 ---
+
 <nav aria-label="Primary">
     <div class="navbar">
-        <a href="https://jmendi2021.github.io/ender-website/" aria-label="Go Home">
+        <a class="logo" href="/ender-website/" aria-label="Go Home">
             <Icon name="logo" width="55"/>
         </a>
         <ul>
             {
                 navData.map((item) => (
-                    <a href={item.path}>{item.name}</a>
+                    <a class="navItem" href={item.path}>{item.name}</a>
                 ))
             }
         </ul>

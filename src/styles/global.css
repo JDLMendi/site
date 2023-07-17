@@ -21,10 +21,7 @@ body {
   flex-direction: column;
 }
 
-a,
-a:visited,
-a:hover,
-a:active {
+.link {
   color: #d4adfc;
   text-decoration: none;
 }
