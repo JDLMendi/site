@@ -1,11 +1,11 @@
 const navData = [
     {
         name: "Home",
-        path: "/",
+        path: "/ender-website/",
     },
     {
         name: "About",
-        path: "/about",
+        path: "/ender-website/about",
     },
 
 ]
