@@ -5,7 +5,11 @@ const navData = [
     },
     {
         name: "Projects",
-        path: "/ender-website/project",
+        path: "/ender-website/projects",
+    },
+    {
+        name: "CV",
+        path: "/ender-website/cv",
     },
 
 ]

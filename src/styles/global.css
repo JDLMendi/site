@@ -2,8 +2,6 @@
 
 html {
   font-family: "Fira Code", monospace;
-  font-color: #ffffff;
-  background: rgb(12, 19, 79);
   background: linear-gradient(
     188deg,
     rgba(12, 19, 79, 1) 0%,
@@ -16,9 +14,17 @@ html {
 
 body {
   margin: 0px;
-  color: white;
   display: flex;
   flex-direction: column;
+  color: white;
+}
+
+.container {
+  position: relative;
+  padding: 10%;
+  margin: 5%;
+  border-radius: 25px;
+  background: rgb(92, 70, 156, 0.7);
 }
 
 .link {
@@ -26,10 +32,10 @@ body {
   text-decoration: none;
 }
 
-.center-text {
-  text-align: center;
+.link:hover {
+  font-weight: bold;
 }
 
-.content {
-  margin: 10%;
+.center {
+  text-align: center;
 }

@@ -5,22 +5,16 @@
   color: white;
 }
 
-.logo {
-  float: middle;
-}
-
 .navbar a {
   float: left;
   text-align: center;
   text-decoration: none;
   font-size: 150%;
   padding: 10px 20px;
+  color: white;
 }
 
 .navbar a:hover {
   color: #d4adfc;
-}
-
-.navItem {
-  color: white;
+  font-weight: bold;
 }
