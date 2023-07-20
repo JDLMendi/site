@@ -2,19 +2,25 @@
   overflow: hidden;
   background-color: #5c469c;
   margin: auto;
+  height: 4rem;
   color: white;
+  font-size: 80%;
 }
 
 .navbar a {
-  float: left;
+  float: right;
   text-align: center;
   text-decoration: none;
   font-size: 150%;
-  padding: 10px 20px;
+  padding: 5px 20px;
   color: white;
 }
 
 .navbar a:hover {
   color: #d4adfc;
   font-weight: bold;
+}
+
+.navbar a:first-child {
+  margin-right: 10px;
 }
