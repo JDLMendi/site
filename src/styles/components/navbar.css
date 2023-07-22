@@ -64,7 +64,6 @@ nav .logo .logoback {
     justify-content: center;
     align-items: center;
     background: #5c469c;
-    transition: top 1s ease;
     display: none;
 
     .closeMenu {
@@ -79,8 +78,8 @@ nav .logo .logoback {
   nav .menu .closeMenu {
     dislpay: block;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 25px;
+    right: 25px;
   }
 
   nav .menu li a:hover {
