@@ -1,8 +1,11 @@
-/* #1f1e20 #3d2c36 #68666a #889bb5 #cbc8d1 */
+* {
+  font-family: "Fira Code", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 html {
-  font-family: "Fira Code", monospace;
-  font-size: 110%;
   background: linear-gradient(
     188deg,
     rgba(12, 19, 79, 1) 0%,
@@ -40,4 +43,10 @@ body {
 
 .center {
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .container {
+    margin: 5% 20px;
+  }
 }

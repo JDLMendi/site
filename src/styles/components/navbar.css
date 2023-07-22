@@ -1,26 +1,90 @@
-.navbar {
-  overflow: hidden;
+nav {
+  color: white;
   background-color: #5c469c;
-  margin: auto;
-  height: 4rem;
-  color: white;
-  font-size: 80%;
+  padding: 0;
+  margin: 0;
+  list-stlye: none;
+  display: flex;
+  justify-content: space-between;
 }
 
-.navbar a {
-  float: right;
-  text-align: center;
+nav .menu {
+  display: flex;
+  list-style: none;
+}
+
+nav .menu li a {
+  margin: 15px;
+  padding: 15px;
+  display: inline-block;
   text-decoration: none;
-  font-size: 150%;
-  padding: 5px 20px;
   color: white;
+  font-size: 1.5rem;
 }
 
-.navbar a:hover {
+nav .menu li a:hover {
   color: #d4adfc;
   font-weight: bold;
 }
 
-.navbar a:first-child {
-  margin-right: 10px;
+nav .openMenu {
+  display: none;
+  cursor: pointer;
+  margin: 25px;
+  font-size: 2rem;
+}
+
+nav .menu .closeMenu {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
+nav .logo {
+  margin: 20px;
+  margin-left: 1.5rem;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+nav .logo .logoback {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  nav .menu {
+    height: 90vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #5c469c;
+    transition: top 1s ease;
+    display: none;
+
+    .closeMenu {
+      display: block;
+    }
+  }
+
+  nav .openMenu {
+    display: block;
+  }
+
+  nav .menu .closeMenu {
+    dislpay: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  nav .menu li a:hover {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
 }

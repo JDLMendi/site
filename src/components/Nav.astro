@@ -1,17 +1,36 @@
 ---
-import { Icon } from "astro-icon";
-import navData from "../data/navData";
-import "../styles/components/navbar.css"
+import navData from "../javascript/navData";
+import "../styles/components/navbar.css";
 ---
 
-<nav aria-label="Primary">
-    <div class="navbar">
-        <ul>
-            {
-                navData.map((item) => (
-                    <a class="navItem" href={item.path}>{item.name}</a>
-                ))
-            }
-        </ul>
-    </div>
+
+<nav>
+    <div class="logo"><h1><a class="logoback" href="/ender-website/">Ender</a></h1></div>
+    <div class="openMenu"><i class="fa fa-bars"></i></div>
+    <ul class="menu">
+    {
+        navData.map((item) => (
+            <li><a class="navItem" href={item.path}>{item.name}</a></li>
+        ))
+    }
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
+    </ul>
 </nav>
+
+<script>
+    const menu = document.querySelector<HTMLElement>(".menu");
+    const openMenu = document.querySelector<HTMLElement>(".openMenu");
+    const closeMenu = document.querySelector<HTMLElement>(".closeMenu");
+
+    openMenu.addEventListener('click', show);
+    closeMenu.addEventListener('click', close);
+
+    function show() {
+        menu.style.display = 'flex';
+        menu.style.top = '0';
+    }
+
+    function close() {
+        menu.style.top = '-100%';
+}
+</script>
