@@ -54,7 +54,7 @@ nav .logo .logoback {
 
 @media (max-width: 700px) {
   nav .menu {
-    height: 90vh;
+    height: 100vh;
     position: fixed;
     top: 0;
     right: 0;

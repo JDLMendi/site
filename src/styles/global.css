@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  max-width: 45rem;
+  max-width: 60rem;
   position: relative;
   padding: 5%;
   margin: 5% auto;
@@ -39,13 +39,14 @@ body {
 
 .link:hover {
   font-weight: bold;
+  color: white;
 }
 
 .center {
   text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 62.5rem) {
   .container {
     margin: 5% 20px;
   }
