@@ -1,0 +1,21 @@
+---
+
+import "../styles/components/appcard.css"
+export interface Props {
+  name: string;
+  url?: string;
+  description: string;
+  projectType?: string;
+  created?: string;
+}
+
+const { name, url, description, created } = Astro.props;
+---
+
+<li class="link-card">
+  <a href={url}>
+    <h3>{name} - {created}</h3>
+    <span>{description}</span>
+  </a>
+  <!--If projectType -->
+</li>

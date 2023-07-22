@@ -1,0 +1,13 @@
+---
+const { frontmatter } = Astro.props;
+import MainLayout from "./MainLayout.astro";
+---
+
+<MainLayout title="Projects">
+    <div class="container">
+            <h1>{frontmatter.title}</h1>
+			<slot />
+			<br>
+            <a class="link" href="/ender-website/projects/">Back to Projects</a>
+	</div>
+</MainLayout>

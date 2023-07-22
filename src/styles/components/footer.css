@@ -1,13 +1,17 @@
 footer {
   text-align: center;
   margin-botom: 2%;
+  color: white;
+  hr {
+    margin: 0% 10%;
+  }
 }
 
 footer a {
   color: white;
 }
 
-hr {
+footer hr {
   color: white;
   margin: 0% 10%;
 }
