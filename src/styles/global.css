@@ -24,10 +24,9 @@ body {
 }
 
 .container {
-  max-width: 60rem;
   position: relative;
   padding: 5%;
-  margin: 5% auto;
+  margin: 2% 10%;
   border-radius: 25px;
   background: rgb(92, 70, 156, 0.7);
 }

@@ -1,7 +1,9 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
-title: Hello World
-description: Lorem Ipsum
+title: Testing Project
+created: 22/12/2023
+description: This is a template MD file used for each project
+
 ---
 
 <br>
