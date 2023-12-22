@@ -3,10 +3,11 @@ layout: ../../layouts/ProjectLayout.astro
 title: Testing Project
 created: 22/12/2023
 description: This is a template MD file used for each project
-
 ---
 
 <br>
+
+![Test Image](/src/pages/projects/images/test.jpeg)
 
 ## Paragraph 1
 
