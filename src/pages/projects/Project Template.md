@@ -7,7 +7,7 @@ description: This is a template MD file used for each project
 
 <br>
 
-![Test Image](/src/pages/projects/images/test.jpeg)
+![Test Image](/project_images/crow.gif)
 
 ## Paragraph 1
 

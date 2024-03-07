@@ -13,9 +13,18 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.8.3",
+    "astro": "^2.10.15",
     "astro-icon": "^0.8.1",
+    "fs": "^0.0.1-security",
+    "markdown-it": "^14.0.0",
+    "pdfjs-dist": "^4.0.379",
     "postcss": "^8.4.26",
-    "postcss-preset-env": "^9.0.0"
-  }
+    "postcss-preset-env": "^9.0.0",
+    "typescript": "^5.4.2"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
