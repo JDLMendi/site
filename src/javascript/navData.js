@@ -7,10 +7,10 @@ const navData = [
         name: "Projects",
         path: "/projects",
     },
-    {
-        name: "CV",
-        path: "/cv",
-    },
+    // {
+    //     name: "CV",
+    //     path: "/cv",
+    // },
 
 ]
 
