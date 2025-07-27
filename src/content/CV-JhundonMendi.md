@@ -11,22 +11,22 @@ With a BSc in Computer Science and an ongoing MSc in Computational Neuroscience,
 <br>
 
 ## **Education**
-<br>
-**University of Birmingham**  
-*MSc Cognitive Neuroimaging and Data Science (Computational Neuroscience)*
 
+<br>
+
+**University of Birmingham**
+
+<br>
+MSc Cognitive Neuroimaging and Data Science (Computational Neuroscience)
 * Concepts of cognitive neuroimaging techniques, including electroencephalography (EEG), magnetoencephalography (MEG), and magnetic resonance imaging (MRI/fMRI), and their applications.  
 * Data Science Principles and Techniques including inference using simulation and resampling, correlation and regression, and utilising tools such as Python, Pandas, and Numpy.  
 * Application of Robot Vision, including Image Stitching, Feature Detection (SIFT), Depth Mapping, and Image Sensing and Processing.
 
 <br>
-*BSc Computer Science* 									
-
+BSc Computer Science							
 * Strong foundation in Functional, Object-Oriented, and Procedural Programming and applied Computer Vision techniques such as Edge Detection and Segmentation.   
 * Teaching experience in Computer Science and foundational mathematics, with a Final Year Project utilising eye-tracking technology to measure the quality of eye-tracking technologies in Virtual Reality for applications in Sports and Psychology.
 
-<br>
----
 <br>
 
 ## **Technical Skills**
@@ -38,8 +38,6 @@ With a BSc in Computer Science and an ongoing MSc in Computational Neuroscience,
 * **Content and Media Creation:** Adobe Express, Canva, CapCut, GIMP, Articulate 360 (Storyline), Microsoft Office Suite  
 * **Development Tools and Version Control:** Git
 
-<br>
----
 <br>
 
 ## **Employment/Experiences**
