@@ -11,4 +11,4 @@ We've thought up a simple game where you play as an Apprentice- Sorry, Intern fo
 
 I've focused on the way how we could create potions and part of the story, bringing ideas for dialogues and ways to progress the story.
 
-![The Dragon's Intern](/project_images/the_dragon_intern.png)
+Link to Game: https://jack-development.itch.io/dragons-intern

@@ -1,19 +1,15 @@
 ---
 // Component Imports
 import MainLayout from "../layouts/MainLayout.astro";
+import Content from "../content/CV-JhundonMendi.md";
 ---
 
 <MainLayout title="CV">
   <div class="center container">
     <div>
-      <div class="pdf-container">
-        <embed
-          src="/CV-JhundonMendi.pdf#toolbar=1"
-          width="100%"
-          height="800px"
-          type="application/pdf"
-        />
-      </div>
+      <article class="prose">
+      <Content />
+      </article>
       <br />
       <a class="link" href="/">Back Home</a>
     </div>
