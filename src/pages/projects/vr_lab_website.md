@@ -18,5 +18,5 @@ Of course, there wwas some headaches here and there since Web Development wasn't
 The academic was quite pleased with the new updates to the site, as the previous maintainer made minor changes here and there. We've updated the site's appearance publically and continued to maintain it as needed with recommendations from our members, and optimising as best as we could. 
 <br>
 
-Visit the Website![VR Lab Website](https://virtualrealitylab.netlify.app/)
+Visit the Website: https://virtualrealitylab.netlify.app/
 (Link format doesn't like Markdown :( )
