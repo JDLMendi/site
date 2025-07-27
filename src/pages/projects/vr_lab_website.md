@@ -6,7 +6,7 @@ description: Recreating the Virtual Reality Website
 ---
 <br>
 
-One of the important thing about the Virtual Reality Lab that I worked in is our [website](https://virtualrealitylab.netlify.app/), containing a lot of things to know about the lab and its people.
+One of the important thing about the Virtual Reality Lab that I worked in is our <a class="link" href="https://virtualrealitylab.netlify.app/">website</a>, containing a lot of things to know about the lab and its people.
 <br>
 
 When I first looked at the code in the GitHub, written using Hugo, I noticed how outdated the site was and I couldn't stand by it. So I took the time to learn abit how Hugo works and had a go at refactoring the entire thing.
