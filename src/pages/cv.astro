@@ -1,8 +1,15 @@
 ---
 // Component Imports
-import MainLayout from "../layouts/MainLayout.astro";
+import MainLayout from "../layouts/CVLayout.astro";
 import Content from "../content/CV-JhundonMendi.md";
 ---
 
-<Content />
+<MainLayout title="CV">
+    <div class="container">
+      <article class="prose">
+        <Content />
+      </article>
+	  </div>
+</MainLayout>
+
 

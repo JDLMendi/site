@@ -5,6 +5,8 @@ created: 08/09/2024
 description: CTL Internship - VR Fume Cupboard
 ---
 
+<br>
+
 This project, as part of the CTL Internship, looks into developing an [interactable digital twin of the fume cupboards](https://github.com/JDLMendi/CTLVR-FumeCupboard) that the students use for their practicals. We looked into utilising 3D Modelling tools, Blender in our case, to create the different components that makes up the cupboard and putting together into a VR environment which can be sideloaded into Quest headsets for students to interact with.
 
 <br>
