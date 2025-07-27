@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
+layout: ../layouts/ProjectLayout.astro
 ---
 
 # Jhundon De Leon Mendi
